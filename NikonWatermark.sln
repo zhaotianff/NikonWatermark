@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NikonWatermark", "NikonWatermark\NikonWatermark.vcxproj", "{8E3D6E9C-7C7F-4F3E-9C8A-1234567890AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NikonWatermarkWpf", "NikonWatermarkWpf\NikonWatermarkWpf.csproj", "{9F4D7E9D-8C8E-4E4F-9D9B-2345678901BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{8E3D6E9C-7C7F-4F3E-9C8A-1234567890AB}.Debug|x64.Build.0 = Debug|x64
 		{8E3D6E9C-7C7F-4F3E-9C8A-1234567890AB}.Release|x64.ActiveCfg = Release|x64
 		{8E3D6E9C-7C7F-4F3E-9C8A-1234567890AB}.Release|x64.Build.0 = Release|x64
+		{9F4D7E9D-8C8E-4E4F-9D9B-2345678901BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9F4D7E9D-8C8E-4E4F-9D9B-2345678901BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{9F4D7E9D-8C8E-4E4F-9D9B-2345678901BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{9F4D7E9D-8C8E-4E4F-9D9B-2345678901BC}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
