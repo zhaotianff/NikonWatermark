@@ -100,7 +100,6 @@ public partial class MainViewModel : ObservableObject
                 try
                 {
                     var fileName = Path.GetFileNameWithoutExtension(imageInfo.FilePath);
-                    var extension = Path.GetExtension(imageInfo.FilePath);
                     var outputPath = Path.Combine(outputFolder, $"{fileName}_watermarked.jpg");
 
                     if (_imageProcessor.ProcessImage(imageInfo.FilePath, outputPath, config))
