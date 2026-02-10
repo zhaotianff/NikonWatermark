@@ -1,0 +1,16 @@
+#include "stdafx.h"
+#include "resource.h"
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Import Images...",           IDC_IMPORT_BUTTON
+        MENUITEM "&Export Images...",           IDC_EXPORT_BUTTON
+        MENUITEM "E&xit",                       IDCANCEL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDD_ABOUTBOX
+    END
+END
